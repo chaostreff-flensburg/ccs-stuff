@@ -19,14 +19,17 @@
 \pagenumbering{gobble}
 
 % Setting font sizes:
+\newcommand{\minifont}[1]{{%
+  \fontsize{9pt}{14pt}\normalfont #1%
+}}
 \newcommand{\smallfont}[1]{{%
-  \fontsize{13pt}{16pt}\normalfont #1%
+  \fontsize{12pt}{16pt}\normalfont #1%
 }}
 \newcommand{\normfont}[1]{{%
-  \fontsize{20pt}{24pt}\normalfont #1%
+  \fontsize{18pt}{22pt}\normalfont #1%
 }}
 \newcommand{\bigfont}[1]{{%
-  \fontsize{30pt}{36pt}\normalfont #1%
+  \fontsize{25pt}{30pt}\normalfont #1%
 }}
 
 % Setting custom fonts:
@@ -45,27 +48,28 @@
 
 \begin{document}
 
+\begin{center}
 \begin{tikzpicture}
-    \draw (0, 0) node[inner sep=0] {\includegraphics[width=0.97\paperwidth]{header}};
+    \draw (0, 0) node[inner sep=0]{\includegraphics[width=0.8\paperwidth]{header}};
     \draw (0, 0) node {\normfont{\monomaniac 2023}};
     \draw (0, -1) node {\bigfont{\monomaniac Chaotisches Catalysator}};
     \draw (0, -2) node {\bigfont{\monomaniac Stipendium}};
     \draw (0, -3) node {\normfont{\monomaniac - Mars Mustermensch -}};
 \end{tikzpicture}
+\end{center}
 
-\vspace{0.9cm}
+\vspace{0.5cm}
 
-\begin{adjustwidth}{3cm}{3cm}
-    \smallfont{\firasans \RaggedRight  \\ \smallskip
-    Moin Mars Mustermensch, \bigskip
+\begin{adjustwidth}{4cm}{4cm}
+    \smallfont{\firasans \RaggedRight
+    Glückwunsch Mars Mustermensch, \bigskip
     
-    Wir freuen uns, dir im Namen des Chaos Computer Clubs mitteilen zu können, dass du ein Chaotischen Catalysator Stipendium erhalten hast! \\ \bigskip
+    Wir freuen uns, dir im Namen des Chaos Computer Clubs mitteilen zu können, dass du ein Chaotisches Catalysator Stipendium erhalten hast! \\ \bigskip
     Auf der Suche nach Arbeiten, welche die Welt zu einem besseren Ort machen und die Grundätze der Hacker*innen Ethik aufgreifen, hast du uns mit deiner Idee überzeugt. \\
-    Aus diesem Grund fördern wird dich mit 1.500€ und begrüßen dich stolz im Kreis der Stipendiat*innen.\\ \bigskip
+    Aus diesem Grund fördern wir dich mit 1.500€ und begrüßen dich stolz im Kreis der Stipendiat*innen.\\ \bigskip
 
-    Es freut uns, diesen bedeutenden Meilenstein mit dir zu feiern, und wir freuen uns darauf Zeug*innen deines weiteren Erfolgs zu werden, die Welt durch deinen  Beitrag zu Technologie und Forschung zu bereichern. \\ 
-    Nun liegt es an dir Mehrwert zu schaffen. Wir glauben an dich. \\ \bigskip
-    
+    Es freut uns, diesen bedeutenden Meilenstein mit dir zu feiern und mitzuerleben wie dein Beitrag zu Technologie und Gesellschaft die Welt bereichern wird! \\ 
+    Nun liegt es an dir, Mehrwert zu schaffen. Wir glauben an dich. \\ \bigskip
     
     Herzlichen Glückwunsch und alles Gute für die Zukunft!\\[3\baselineskip]
     \par}
@@ -73,12 +77,32 @@
 
 \begin{adjustwidth}{3cm}{3cm}
     \RaggedLeft ---------------------------------------- \\
-    \smallfont{\firasans Samuel Brinkmann}
+    \smallfont{\firasans Samuel Brinkmann} \\
+    \minifont{\firasans Chaostreff Flensburg e.V.}
+\end{adjustwidth}
+
+% Für eine "Ein Projekt von"-Version mit Logos
+%\begin{adjustwidth}{3cm}{3cm}
+%     \smallfont{\firasans \RaggedRight 
+%     Ein Projekt von}\\ \smallskip \hspace{1 cm}
+%    \includegraphics[width=2.5cm] {chaoscomputerclub} \hspace{2 cm}
+%    \includegraphics[width=2.5cm] {chaostreff} \hspace{2 cm}
+%    \includegraphics[width=2cm] {chaotikumfullschwarz}
+%\end{adjustwidth}
+
+% Version ohne Logos
+\begin{adjustwidth}{3cm}{3cm}
+    \bigskip
+     \smallfont{\firasans \RaggedRight 
+     Ein Projekt von \\ \smallskip
+    \textbf{Chaos Computer Club e.V.} \hspace{0.5 cm}
+    \textbf{Chaostreff Flensburg e.V.} \hspace{0.5 cm}
+    \textbf{Chaotikum e.V.} }
 \end{adjustwidth}
 
 \begin{figure}[b]
 	\begin{center}
-		\includegraphics[width=0.9\paperwidth] {deco_bottom}
+		\includegraphics[width=0.8\paperwidth] {deco_bottom}
 	\end{center}
 \end{figure}
 
