@@ -48,8 +48,8 @@ fs.createReadStream("../hochschul-addressen-raw.csv")
   .pipe(csvParser({ encoding: null }))
   .on("data", (data) => {
     //console.log('====================')
-    if(data['Hochschulname'].includes('Freie Universität Berlin')) console.log(data)
     if (data["Trägerschaft"] === 'öffentlich-rechtlich') {
+      const [street, houseNumber] = seperateHouseNumberStreet(data["Straße"])
       const row = {
         "NAME": data['Hochschulname'],
         "ZUSATZ": "",
@@ -87,6 +87,7 @@ fs.createReadStream("../hochschul-addressen-raw.csv")
 
 function seperateHouseNumberStreet(streetAndNumber) {
   const streetAndNumberArray = streetAndNumber.split(' ')
+  if(streetAndNumberArray.length === 1) return [streetAndNumber, '']
   const houseNumber = streetAndNumberArray[streetAndNumberArray.length - 1]
   const street = streetAndNumberArray.slice(0, streetAndNumberArray.length - 1).join(' ')
   return [street, houseNumber]

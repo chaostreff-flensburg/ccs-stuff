@@ -2,7 +2,7 @@ NAME;ZUSATZ;STRASSE;NUMMER;PLZ;STADT;LAND;ADRESS_TYP;REFERENZ
 Chaostreff Flensburg e.V.;;Apenrader Str.;49;24939;Flensburg;DEU;HOUSE;Abbsender
 FernUniversität in Hagen;;Universitätsstraße;47;58084;Hagen;DEU;HOUSE;62638
 Ludwig-Maximilians-Universität München;;Geschwister-Scholl-Platz;1;80539;München;DEU;HOUSE;51574
-Universität zu Köln;;;Albertus-Magnus-Platz;50923;Köln;DEU;HOUSE;51195
+Universität zu Köln;;Albertus-Magnus-Platz;;50923;Köln;DEU;HOUSE;51195
 Technische Universität München;;Arcisstraße;21;80333;München;DEU;HOUSE;49514
 Rheinisch-Westfälische Technische Hochschule Aachen;;Templergraben;55;52056;Aachen;DEU;HOUSE;47302
 Westfälische Wilhelms-Universität Münster;;Schlossplatz;2;48149;Münster;DEU;HOUSE;43869
@@ -23,7 +23,7 @@ Technische Universität Dresden;;Mommsenstraße;11;1062;Dresden;DEU;HOUSE;29954
 Universität Leipzig;;Ritterstraße;26;4009;Leipzig;DEU;HOUSE;29746
 Ruprecht-Karls-Universität Heidelberg;;Seminarstraße;2;69047;Heidelberg;DEU;HOUSE;29147
 Gottfried Wilhelm Leibniz Universität Hannover;;Welfengarten;1;30060;Hannover;DEU;HOUSE;28078
-Eberhard Karls Universität Tübingen;;;Geschwister-Scholl-Platz;72074;Tübingen;DEU;HOUSE;28062
+Eberhard Karls Universität Tübingen;;Geschwister-Scholl-Platz;;72074;Tübingen;DEU;HOUSE;28062
 Georg-August-Universität Göttingen;;Wilhelmsplatz;1;37027;Göttingen;DEU;HOUSE;27871
 Christian-Albrechts-Universität zu Kiel;;Christian-Albrechts-Platz;4;24118;Kiel;DEU;HOUSE;27152
 Julius-Maximilians-Universität Würzburg;;Sanderring;2;97070;Würzburg;DEU;HOUSE;26643
@@ -31,7 +31,7 @@ Justus-Liebig-Universität Gießen;;Ludwigstraße;23;35359;Gießen;DEU;HOUSE;260
 Universität Bielefeld;;Universitätsstraße;25;33501;Bielefeld;DEU;HOUSE;24555
 Technische Universität Darmstadt;;Karolinenplatz;5;64277;Darmstadt;DEU;HOUSE;24405
 Technische Hochschule Köln;;Claudiusstraße;1;50678;Köln;DEU;HOUSE;24294
-Albert-Ludwigs-Universität Freiburg im Breisgau;;;Fahnenbergplatz;79085;Freiburg;DEU;HOUSE;24187
+Albert-Ludwigs-Universität Freiburg im Breisgau;;Fahnenbergplatz;;79085;Freiburg;DEU;HOUSE;24187
 Universität Kassel;;Mönchebergstraße;19;34109;Kassel;DEU;HOUSE;22893
 Bergische Universität Wuppertal;;Gaußstraße;20;42097;Wuppertal;DEU;HOUSE;22272
 Philipps-Universität Marburg;;Biegenstraße;10;35032;Marburg;DEU;HOUSE;21984
@@ -49,7 +49,7 @@ Technische Universität Carolo-Wilhelmina zu Braunschweig;;Universitätsplatz;2;
 Hochschule für Angewandte Wissenschaften Hamburg;;Berliner Tor;5;20014;Hamburg;DEU;HOUSE;16877
 Technische Hochschule Mittelhessen - THM;;Wiesenstraße;14;35390;Gießen;DEU;HOUSE;16795
 Universität Siegen;;Adolf-Reichwein-Straße;2;57076;Siegen;DEU;HOUSE;16791
-Universität des Saarlandes;;;Campus;66041;Saarbrücken;DEU;HOUSE;16122
+Universität des Saarlandes;;Campus;;66041;Saarbrücken;DEU;HOUSE;16122
 Carl von Ossietzky Universität Oldenburg;;Ammerländer Heerstraße;114-118;26111;Oldenburg;DEU;HOUSE;15495
 Hochschule Darmstadt;;Schöfferstraße;3;64295;Darmstadt;DEU;HOUSE;15474
 Frankfurt University of Applied Sciences;;Nibelungenplatz;1;60318;Frankfurt am Main;DEU;HOUSE;15297
@@ -68,7 +68,7 @@ Universität Rostock;;Universitätsplatz;1;18051;Rostock;DEU;HOUSE;12814
 Technische Hochschule Nürnberg Georg Simon Ohm;;Keßlerplatz;12;90121;Nürnberg;DEU;HOUSE;12601
 Hochschule für Wirtschaft und Recht Berlin;;Badensche Straße;52;10825;Berlin;DEU;HOUSE;12433
 Universität Bayreuth;;Universitätsstraße;30;95440;Bayreuth;DEU;HOUSE;12329
-Universität Mannheim;;;Schloss;68131;Mannheim;DEU;HOUSE;11560
+Universität Mannheim;;Schloss;;68131;Mannheim;DEU;HOUSE;11560
 Otto-Friedrich-Universität Bamberg;;Kapuzinerstr.;25;96045;Bamberg;DEU;HOUSE;11311
 Universität Passau;;Innstraße;41;94030;Passau;DEU;HOUSE;11202
 Hochschule Düsseldorf;;Münsterstraße;156;40476;Düsseldorf;DEU;HOUSE;11172
@@ -102,7 +102,7 @@ Hochschule Anhalt - Anhalt University of Applied Sciences;;Bernburger Straße;55
 Hochschule Karlsruhe - Technik und Wirtschaft;;Moltkestraße;30;76012;Karlsruhe;DEU;HOUSE;6934
 Technische Hochschule Ingolstadt;;Esplanade;10;85019;Ingolstadt;DEU;HOUSE;6878
 Hochschule für Technik, Wirtschaft und Kultur Leipzig;;Karl-Liebknecht-Straße;132;4251;Leipzig;DEU;HOUSE;6843
-Hochschule Trier - Trier University of Applied Sciences;;;Schneidershof;54208;Trier;DEU;HOUSE;6688
+Hochschule Trier - Trier University of Applied Sciences;;Schneidershof;;54208;Trier;DEU;HOUSE;6688
 Brandenburgische Technische Universität Cottbus-Senftenberg;;Platz der Dt. Einheit;1;3013;Cottbus;DEU;HOUSE;6620
 Technische Hochschule Augsburg;;An der Hochschule;1;86031;Augsburg;DEU;HOUSE;6606
 Hochschule Rhein-Waal - University of Applied Sciences;;Marie-Curie-Str.;1;47533;Kleve;DEU;HOUSE;6465
@@ -161,7 +161,7 @@ Universität der Bundeswehr München;;Werner-Heisenberg-Weg;39;85577;0;DEU;HOUSE
 Hochschule für angewandte Wissenschaften Ansbach;;Residenzstraße;8;91510;Ansbach;DEU;HOUSE;3719
 Pädagogische Hochschule Karlsruhe;;Bismarckstraße;10;76060;Karlsruhe;DEU;HOUSE;3676
 Fachhochschule Potsdam;;Kiepenheuerallee;5;14469;Potsdam;DEU;HOUSE;3657
-Hochschule Ravensburg-Weingarten;;;Doggenriedstraße;88216;Ravensburg;DEU;HOUSE;3611
+Hochschule Ravensburg-Weingarten;;Doggenriedstraße;;88216;Ravensburg;DEU;HOUSE;3611
 Technische Hochschule Aschaffenburg;;Würzburger Straße;45;63743;Aschaffenburg;DEU;HOUSE;3475
 Pädagogische Hochschule Weingarten;;Kirchplatz;2;88250;Weingarten;DEU;HOUSE;3398
 Hochschule Worms, University of Applied Sciences;;Erenburgerstr.;19;67549;Worms;DEU;HOUSE;3391
@@ -176,7 +176,7 @@ Westsächsische Hochschule Zwickau;;Kornmarkt;1;8012;Zwickau;DEU;HOUSE;2931
 Hochschule Albstadt-Sigmaringen;;Anton-Günther-Straße;51;72481;Sigmaringen;DEU;HOUSE;2904
 Pädagogische Hochschule Schwäbisch Gmünd;;Oberbettringer Str.;200;73525;Schwäbisch Gmünd;DEU;HOUSE;2872
 Hochschule Bremerhaven;;An der Karlstadt;8;27568;Bremerhaven;DEU;HOUSE;2816
-Hochschule für Finanzen NRW;;;Schloßstraße;59394;Nordkirchen;DEU;HOUSE;2795
+Hochschule für Finanzen NRW;;Schloßstraße;;59394;Nordkirchen;DEU;HOUSE;2795
 Hochschule für öffentliche Verwaltung und Finanzen Ludwigsburg;;Reuteallee;36;71634;Ludwigsburg;DEU;HOUSE;2792
 Hessische Hochschule für Finanzen und Rechtspflege Rotenburg a.d. Fulda;;Josef-Durstewitz Straße;2-6;36199;Rotenburg;DEU;HOUSE;2610
 Hochschule Schmalkalden;;Blechhammer;9;98574;Schmalkalden;DEU;HOUSE;2564
@@ -213,7 +213,7 @@ Fachhochschule für Finanzen Brandenburg;;Schillerstraße;6;15711;Königs Wuster
 Hochschule für Künste Bremen;;Am Speicher XI;8;28217;Bremen;DEU;HOUSE;978
 Hochschule für Bildende Künste Hamburg;;Lerchenfeld;2;22081;Hamburg;DEU;HOUSE;964
 Hochschule für Bildende Künste Braunschweig;;Johannes-Selenka-Platz;1;38015;Braunschweig;DEU;HOUSE;951
-Hochschule für Forstwirtschaft Rottenburg;;;Schadenweilerhof;72108;Rottenburg;DEU;HOUSE;948
+Hochschule für Forstwirtschaft Rottenburg;;Schadenweilerhof;;72108;Rottenburg;DEU;HOUSE;948
 Filmuniversität Babelsberg Konrad Wolf;;Marlene-Dietrich-Allee;11;14437;Potsdam;DEU;HOUSE;942
 Hochschule für öffentliche Verwaltung Rheinland-Pfalz;;St.-Veit-Straße;26-28;56727;Mayen;DEU;HOUSE;912
 Hochschule für Musik und Darstellende Kunst Frankfurt am Main;;Eschersheimer Landstraße;29-39;60322;Frankfurt am Main;DEU;HOUSE;907
@@ -253,7 +253,7 @@ Hochschule für Musik Nürnberg;;Veilhofstraße;34;90489;Nürnberg;DEU;HOUSE;455
 Hochschule der Bildenden Künste Saar;;Keplerstraße;3-5;66117;Saarbrücken;DEU;HOUSE;445
 Hochschule für Musik Saar;;Bismarckstraße;1;66111;Saarbrücken;DEU;HOUSE;423
 Kunsthochschule für Medien Köln;;Peter-Welter-Platz;2;50676;Köln;DEU;HOUSE;418
-Hochschule der Deutschen Bundesbank;;;Schloss;57620;Hachenburg;DEU;HOUSE;408
+Hochschule der Deutschen Bundesbank;;Schloss;;57620;Hachenburg;DEU;HOUSE;408
 Musikhochschule Lübeck;;Große Petersgrube;21;23552;Lübeck;DEU;HOUSE;404
 Norddeutsche Hochschule für Rechtspflege - Niedersachsen;;Godehardspl.;6;31134;Hildesheim;DEU;HOUSE;404
 Staatliche Hochschule für Musik Trossingen;;Schultheiß-Koch-Platz;3;78647;Trossingen;DEU;HOUSE;389
