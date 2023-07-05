@@ -51,7 +51,7 @@ fs.createReadStream("../hochschul-addressen-raw.csv")
     if (data["Trägerschaft"] === 'öffentlich-rechtlich') {
       const [street, houseNumber] = seperateHouseNumberStreet(data["Straße"])
       const row = {
-        "NAME": data['Hochschulname'],
+        "NAME": data['Hochschulname'].substring(0,49),
         "ZUSATZ": "",
         "STRASSE": street,
         "NUMMER": houseNumber,
