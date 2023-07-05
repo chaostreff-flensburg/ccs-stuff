@@ -47,17 +47,16 @@ let result = [];
 fs.createReadStream("../hochschul-addressen-raw.csv")
   .pipe(csvParser({ encoding: null }))
   .on("data", (data) => {
-    console.log('====================')
-    console.log(data)
+    //console.log('====================')
+    if(data['Hochschulname'].includes('Freie Universität Berlin')) console.log(data)
     if (data["Trägerschaft"] === 'öffentlich-rechtlich') {
-      const [street, houseNumber] = seperateHouseNumberStreet(data["Straße"])
       const row = {
         "NAME": data['Hochschulname'],
         "ZUSATZ": "",
         "STRASSE": street,
         "NUMMER": houseNumber,
-        "PLZ": data['Postleitzahl (Postanschrift)'],
-        "STADT": data['Ort (Postanschrift)'],
+        "PLZ": data['Postleitzahl (Postanschrift)'] || data[ 'Postleitzahl (Hausanschrift)'],
+        "STADT": data['Ort (Postanschrift)'] || data[ 'Ort (Hausanschrift)'],
         "LAND": "DEU",
         "ADRESS_TYP": "HOUSE",
         "REFERENZ": data['Anzahl Studierende'], //"CCS.2023.1",
@@ -78,7 +77,7 @@ fs.createReadStream("../hochschul-addressen-raw.csv")
       "ADRESS_TYP": "HOUSE",
       "REFERENZ": "Abbsender"
     })
-    console.log('result', result[2])
+    //console.log('result', result[2])
     result.forEach((row) => {
       stringifier.write(row);
     })
