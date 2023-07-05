@@ -3,7 +3,7 @@ const csvParser = require("csv-parser");
 const { stringify } = require("csv-stringify");
 
 
-const writableStream = fs.createWriteStream('../hochschul-addressen_alle_sortiert_studierende.csv');
+const writableStream = fs.createWriteStream('../hochschul-addressen_oeffentlich-rechtlich_sortiert_studierende.csv');
 
 const importColumns = [
   "nr",
@@ -66,7 +66,7 @@ fs.createReadStream("../hochschul-addressen-raw.csv")
     }
   })
   .on("end", () => {
-    result = result.sort((a, b) => a["REFERENZ"] - b["REFERENZ"]);
+    result = result.sort((a, b) => b["REFERENZ"] - a["REFERENZ"]);
     result.unshift({
       "NAME": "Chaostreff Flensburg e.V.",
       "ZUSATZ": "",
