@@ -14,7 +14,7 @@ https://www.hochschulkompass.de/hochschulen/downloads.html
 8) label drucken
 9) erfolg
 
-Formatting der CSV für keine Encoding Probleme: Windows 1252
+Formatting der CSV für keine Encoding Probleme: Windows 1252. Trennzeichen ";" Semikolon!
 
 Die erste nicht Kopfzeile sollte die eigene Adresse sein.
 
