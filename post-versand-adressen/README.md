@@ -18,6 +18,8 @@ Formatting der CSV für keine Encoding Probleme: Windows 1252. Trennzeichen ";" 
 
 Die erste nicht Kopfzeile sollte die eigene Adresse sein.
 
+PDF Öffnen -> Drucken -> "über das system dialogfeld drucken" drücken -> "weiter einestellungen" -> Papiergröße auf "102 x 152" ändern -> drucken drücken
+
 ### Hohlen von .csv adressen für die Chaostreffs
 Login bei doku.ccc.de machen.
 
